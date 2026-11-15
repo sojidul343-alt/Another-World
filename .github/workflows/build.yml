@@ -20,8 +20,8 @@ jobs:
 
       - name: Extract Another World source
         run: |
-          unzip -q Another-World-1.0.0-source.zip -d source
-          cp -a source/Another-World-1.0.0-source/. .
+          unzip -q Another-World-1.1.0-source-patched.zip -d source
+          cp -a source/Another-World-1.1.0-source-patched.zip/. .
 
       - name: Setup Android and Rust
         uses: ./.github/actions/setup
